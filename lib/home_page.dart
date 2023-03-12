@@ -31,7 +31,7 @@ class _HomePageState extends State<HomePage> {
             ),
             _signOut(),
             Text('login as : ${user!.email ?? 'Anonymous'}'),
-            Text(user!.uid),
+            Text('User UID : ${user!.uid}'),
           ],
         ),
       ),
