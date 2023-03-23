@@ -18,6 +18,7 @@ class _HomePageState extends State<HomePage> {
   }
 
   User? user = Auth().currentUser;
+  
   @override
   Widget build(BuildContext context) {
     return Scaffold(
